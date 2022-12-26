@@ -2,11 +2,11 @@
 
  
 
-usingnamespace std;
+using namespace std;
 
-Const int MAX=5;
+const int MAX=5;
 
-Class PizzaParlour
+class PizzaParlour
 
 {
 
@@ -24,11 +24,11 @@ Class PizzaParlour
 
                         }
 
-              Bool addOrder(int data);
+              bool addOrder(int data);
 
-              Void serveOrder();
+              void serveOrder();
 
-              Void display();
+              void display();
 
 };
 
@@ -154,29 +154,13 @@ void PizzaParlour::display()
 
  }
 
-voidintro()
 
- {    char name[50]={"\n Cafe \n"};
-
- 
-
- 
-
- 
-
- 
-
-             
-
-      }
-
- }
 
 int main()
 
  {
 
-      Int ch,id=0;
+      int ch,id=0;
 
       PizzaParlour q;
 
@@ -186,7 +170,7 @@ int main()
 
               cout<<"\n-----------------";
 
-      intro();
+      
 
               cout<<"-----------------";
 
